@@ -99,7 +99,7 @@ class KadeEngineData
 		KeyBinds.gamepad = gamepad != null;
 
 		Conductor.recalculateTimings();
-		PlayerSettings.player1.controls.loadKeyBinds();
+		
 		KeyBinds.keyCheck();
 
 		Main.watermarks = FlxG.save.data.watermark;
