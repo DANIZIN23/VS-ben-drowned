@@ -23,6 +23,10 @@ class CreditsState extends MusicBeatState
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('cretits', 'preload'));
 		bg.screenCenter();
 		add(bg);
+		
+		#if android
+addVirtualPad(NONE, A_B);
+#end
 	}
 	override function update(elapsed:Float)
 	{
