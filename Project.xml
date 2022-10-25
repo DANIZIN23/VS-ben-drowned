@@ -97,7 +97,7 @@
 	<haxelib name="hscript" />
 
 	<haxelib name="actuate" />
-	<haxelib name="extension-webm"/> <!-- Make sure to use https://github.com/KadeDev/extension-webm/ -->
+	<haxelib name="extension-webm"/>
 	
 	<haxelib name="hxvm-luajit" if="windows"/>
 
@@ -105,9 +105,9 @@
 	<haxelib name="flixel-ui" />
 	<haxelib name="newgrounds"/>
 	<haxelib name="faxe" if='switch'/>
-	<haxelib name="polymod"/>
+	<haxelib name="polymod" if="desktop"/>
 	<haxelib name="discord_rpc" if="windows"/>
-	<haxelib name="linc_luajit" if="windows"/>
+	<haxelib name="linc_luajit"/>
 
 	<!-- <haxelib name="hxcpp-debug-server" if="desktop"/> -->
 
