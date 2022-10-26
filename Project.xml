@@ -40,6 +40,8 @@
 
 	<classpath name="source" />
 
+	<assets path="assets/preload/images/androidcontrols" if="android"/> <!-- to not have the android assets in another builds -saw -->
+
 	<assets path="assets/preload" rename="assets" exclude="*.ogg" if="web"/>
 	<assets path="assets/preload" rename="assets" exclude="*.mp3" unless="web"/>
 	
